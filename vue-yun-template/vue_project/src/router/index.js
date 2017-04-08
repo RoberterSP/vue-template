@@ -9,9 +9,9 @@ import Router from 'vue-router'
 import Pages from 'pages'
 
 Vue.use(Router)
-
+//     创建router实例，定义路由
 const router = new Router({
-    component: Pages.Root,
+    component: Pages.Help,
     routes: [
         {
             path: '/help',
